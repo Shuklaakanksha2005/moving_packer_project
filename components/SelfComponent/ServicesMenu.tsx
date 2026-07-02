@@ -34,9 +34,7 @@ export default function ServicesMenu() {
             className="
             bg-transparent
             text-white
-             hover:text-yellow-400
-            "
-          >
+             hover:text-yellow-400">
             Services
           </NavigationMenuTrigger>
 
@@ -48,16 +46,14 @@ export default function ServicesMenu() {
 
                 <Link
                   href="/services/home-shifting"
-                  className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-100 transition"
-                >
+                  className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-100 transition">
                   <House size={18} />
                   <span>Home Shifting</span>
                 </Link>
 
                 <Link
                   href="/services/office-relocation"
-                  className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-100 transition"
-                >
+                  className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-100 transition">
                   <Building2 size={18} />
                   <span>Office Relocation</span>
                 </Link>
@@ -78,7 +74,7 @@ export default function ServicesMenu() {
 
       <div
       className=" hidden group-hover:block absolute left-full top-0
-      ml-2 w-[350px] bg-red-500  rounded-2xl shadow-xl p-6 border z-50 ">
+      ml-2 w-[350px] bg-red-500  rounded-2xl shadow-xl p-6 border z-50">
 
       <h3 className="text-sm font-bold text-slate-400 uppercase tracking-wider mb-5">
       Local Areas — Lucknow
@@ -143,40 +139,35 @@ export default function ServicesMenu() {
 
                 <Link
                   href="/services/intercity-relocation"
-                  className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-100 transition"
-                >
+                  className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-100 transition">
                   <Send size={18} />
                   <span>Intercity Relocation</span>
                 </Link>
 
                 <Link
                   href="/services/bike-transport"
-                  className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-100 transition"
-                >
+                  className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-100 transition">
                   <Bike size={18} />
                   <span>Bike Transport</span>
                 </Link>
 
                 <Link
                   href="/services/car-transport"
-                  className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-100 transition"
-                >
+                  className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-100 transition">
                   <Car size={18} />
                   <span>Car Transport</span>
                 </Link>
 
                 <Link
                   href="/services/packing-unpacking"
-                  className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-100 transition"
-                >
+                  className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-100 transition">
                   <Package size={18} />
                   <span>Packing & Unpacking</span>
                 </Link>
 
                 <Link
                   href="/services/loading-unloading"
-                  className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-100 transition"
-                >
+                  className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-100 transition">
                   <Truck size={18} />
                   <span>Loading & Unloading</span>
                 </Link>

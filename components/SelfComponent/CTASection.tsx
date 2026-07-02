@@ -1,6 +1,7 @@
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+
+import QuoteDialog from "./QuoteDialog";
 
 export default function CTASection() {
   return (
@@ -32,24 +33,13 @@ export default function CTASection() {
 
         </p>
 
-        {/* Button */}
-        <Button
-          size="lg"
-          className="
-            mt-12
-            bg-yellow-400
-            text-black
-            hover:bg-yellow-500
-            px-10
-            py-7
-            text-lg
-            rounded-2xl
-          "
-        >
-          Get Your Free Quote Today
+        <QuoteDialog>
 
-          <ArrowRight className="ml-2 h-5 w-5" />
-        </Button>
+          <Button size="lg" className=" rounded-xl bg-yellow-400 text-black hover:bg-amber-100 hover:text-black hover:border hover:border-black mt-10">
+              Get Your Free Quote Today
+           </Button>
+
+        </QuoteDialog>
 
       </div>
 

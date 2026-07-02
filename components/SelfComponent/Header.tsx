@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import ServicesMenu from "@/components/SelfComponent/ServicesMenu";
 import QuoteModal from "@/components/SelfComponent/QuoteForm";
+import QuoteDialog from "@/components/SelfComponent/QuoteDialog";
 import {
   Menu,
   X,
@@ -73,7 +74,7 @@ export default function Header() {
               </li>
 
               <li>
-                <Link href="/">How It Works</Link>
+                <Link href="/howItWorks">How It Works</Link>
               </li>
 
               <li>
@@ -81,18 +82,22 @@ export default function Header() {
               </li>
 
               <li>
-                <Link href="/">About Us</Link>
+                <Link href="/about">About Us</Link>
               </li>
 
               <li>
-                <Link href="/">Contact</Link>
+                <Link href="/contact">Contact</Link>
               </li>
             </ul>
 
         
-           <div className="hidden lg:block">
-                     <QuoteModal />
-           </div>
+            <QuoteDialog>
+
+             <button className="hidden lg:block bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold">
+             Get Free Quote
+             </button>
+
+            </QuoteDialog>
 
             
             <button
@@ -116,11 +121,17 @@ export default function Header() {
 
               <Link href="/">Blog</Link>
 
-              <Link href="/">About Us</Link>
+              <Link href="./app/about/page.tsx">About Us</Link>
 
-              <Link href="/">Contact</Link>
+              <Link href="./app/contact/page.tsx">Contact</Link>
 
-              <QuoteModal />
+             <QuoteDialog>
+
+                <button className="hidden lg:block bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold">
+                  Get Free Quote
+                  </button>
+
+              </QuoteDialog>
             </div>
           </div>
         )}
