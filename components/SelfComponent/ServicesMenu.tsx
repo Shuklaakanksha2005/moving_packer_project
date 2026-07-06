@@ -61,7 +61,7 @@ export default function ServicesMenu() {
                 <div className="group relative">
 
      <Link
-        href="/services/local-moving"
+        href="/services/local-shifting"
         className="flex items-center justify-between px-3 py-2 rounded-lg hover:bg-amber-50 transition">
 
        <div className="flex items-center gap-3">
@@ -145,14 +145,14 @@ export default function ServicesMenu() {
                 </Link>
 
                 <Link
-                  href="/services/bike-transport"
+                  href="/services/bike-transportation"
                   className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-100 transition">
                   <Bike size={18} />
                   <span>Bike Transport</span>
                 </Link>
 
                 <Link
-                  href="/services/car-transport"
+                  href="/services/car-transportation"
                   className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-100 transition">
                   <Car size={18} />
                   <span>Car Transport</span>

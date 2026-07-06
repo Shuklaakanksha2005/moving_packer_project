@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, ArrowRight, Star } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 import QuoteDialog from "./QuoteDialog";
 
 export default function QuoteCTA() {
@@ -62,14 +63,18 @@ export default function QuoteCTA() {
 
                 </QuoteDialog>
 
-                <Button
-                  variant="outline"
-                  size="lg"
-                  className="w-full rounded-xl bg-yellow-400 text-black"
-                >
-                  <Phone className="mr-2 h-5 w-5" />
-                  Call Now
+               <a
+               href="https://wa.me/8299883960"
+                target="_blank"
+                rel="noopener noreferrer">
+               <Button
+               variant="outline"
+               size="lg"
+               className="w-full rounded-xl  text-white bg-green-500 hover:bg-white hover:border-green-500 hover:text-green-500">
+               <MessageCircle className="mr-2 h-5 w-5" />
+                WhatsApp Now
                 </Button>
+                </a>
               </div>
 
               <div className="mt-8 pt-6 border-t">
