@@ -8,6 +8,7 @@ import QuoteCTA from "@/components/SelfComponent/QuoteCTA";
 
 import { homeShifting } from "@/constants/services";
 
+
 export default function HomeShiftingPage() {
   return (
     <>
@@ -20,7 +21,10 @@ export default function HomeShiftingPage() {
       />
       <ServiceOverview overview={homeShifting.overview} />
 
-      <IncludedServices services={homeShifting.includedServices} />
+     <IncludedServices
+       title="What's Included"
+       services={homeShifting.includedServices}
+        />
 
       <Pricing pricing={homeShifting.pricing} />
       
