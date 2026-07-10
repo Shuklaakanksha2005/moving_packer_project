@@ -1,3 +1,22 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact Us | Moving Packer",
+
+  description:
+    "Contact Moving Packer for home shifting, office relocation, bike transport and moving services across India.",
+
+  keywords: [
+    "contact moving company",
+    "moving support",
+    "packers contact",
+    "moving inquiry",
+  ],
+};
+
+
+
+
 export default function ContactPage() {
   return (
     <section className="py-20 bg-slate-50 min-h-screen">

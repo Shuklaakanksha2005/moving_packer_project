@@ -8,6 +8,26 @@ import QuoteCTA from "@/components/SelfComponent/QuoteCTA";
 
 import { bikeTransport } from "@/constants/services";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Bike Transportation Services | Moving Packer",
+
+  description:
+    "Safe and affordable bike transportation services with secure packaging and timely delivery across India.",
+
+  keywords: [
+    "bike transport",
+    "bike transportation",
+    "motorcycle transport",
+    "bike courier",
+    "bike shifting",
+    "two wheeler transport",
+    "vehicle transport",
+  ],
+};
+
+
 export default function BikeTransportPage() {
   return (
     <>

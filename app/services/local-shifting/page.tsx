@@ -6,6 +6,25 @@ import QuoteCTA from "@/components/SelfComponent/QuoteCTA";
 
 import { localShifting } from "@/constants/services";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Local Shifting Services | Moving Packer",
+
+  description:
+    "Fast and affordable local shifting services for homes and offices with professional movers across India.",
+
+  keywords: [
+    "local shifting",
+    "local movers",
+    "same city moving",
+    "city relocation",
+    "home shifting",
+    "office shifting",
+    "local moving company",
+  ],
+};
+
 export default function LocalShiftingPage() {
   return (
     <>

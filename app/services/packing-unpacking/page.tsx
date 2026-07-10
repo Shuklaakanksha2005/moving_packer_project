@@ -6,6 +6,25 @@ import QuoteCTA from "@/components/SelfComponent/QuoteCTA";
 
 import { packingUnpacking } from "@/constants/services";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Packing & Unpacking Services | Moving Packer",
+
+  description:
+    "Professional packing and unpacking services using premium packing materials for safe relocation.",
+
+  keywords: [
+    "packing services",
+    "unpacking services",
+    "professional packing",
+    "packing movers",
+    "fragile item packing",
+    "house packing",
+  ],
+};
+
+
 export default function PackingUnpackingPage() {
   return (
     <>

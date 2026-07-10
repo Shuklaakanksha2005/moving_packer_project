@@ -4,6 +4,7 @@ import {
   MapPin,
   Phone,
   Mail,
+  
 } from "lucide-react";
 
 import {
@@ -12,6 +13,8 @@ import {
   FaLinkedinIn,
   FaXTwitter,
 } from "react-icons/fa6";
+
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -138,7 +141,8 @@ export default function Footer() {
               <li>Moving Checklist</li>
               <li>Packing Tips</li>
               <li>City Guides</li>
-              <li>FAQs</li>
+              <li><Link href="/faq"> FAQ</Link>
+              </li>
               <li>Pricing Guide</li>
             </ul>
           </div>
@@ -177,9 +181,16 @@ export default function Footer() {
           </p>
 
           <div className="flex gap-8">
-            <span>Privacy Policy</span>
-            <span>Terms of Service</span>
-            <span>Cookie Policy</span>
+           <Link href="/privacy-policy">
+             <span>Privacy Policy</span>
+            </Link>
+           <Link href="/terms-and-conditions">
+             <span>Terms of Service</span>
+           </Link>
+           <Link href="/refund-and-cancellation">
+           <span>Refund & Cancellation Policy</span>
+          </Link>
+
           </div>
 
         </div>

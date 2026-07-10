@@ -1,3 +1,21 @@
+
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Us | Moving Packer",
+
+  description:
+    "Learn about Moving Packer, our mission, values and commitment to providing safe and reliable relocation services across India.",
+
+  keywords: [
+    "about moving packer",
+    "moving company",
+    "professional movers",
+    "trusted packers",
+  ],
+};
+
+
 export default function AboutPage() {
   return (
     <section className="py-20 bg-slate-50 min-h-screen">

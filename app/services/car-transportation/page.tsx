@@ -9,6 +9,25 @@ import QuoteCTA from "@/components/SelfComponent/QuoteCTA";
 
 import { carTransport } from "@/constants/services";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Car Transportation Services | Moving Packer",
+
+  description:
+    "Reliable car transportation services with insured vehicle transport and doorstep delivery across India.",
+
+  keywords: [
+    "car transport",
+    "car transportation",
+    "vehicle transport",
+    "car carrier",
+    "car shifting",
+    "automobile transport",
+    "car movers",
+  ],
+};
+
 export default function CarTransportPage() {
   return (
     <>

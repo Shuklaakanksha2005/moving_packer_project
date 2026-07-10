@@ -7,6 +7,25 @@ import QuoteCTA from "@/components/SelfComponent/QuoteCTA";
 
 import { officeRelocation } from "@/constants/services";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Office Relocation Services | Moving Packer",
+
+  description:
+    "Professional office relocation services for businesses with secure packing, transportation and setup across India.",
+
+  keywords: [
+    "office relocation",
+    "office shifting",
+    "commercial movers",
+    "business relocation",
+    "office movers",
+    "corporate shifting",
+    "office moving services",
+  ],
+};
+
 export default function OfficeRelocationPage() {
   return (
     <>

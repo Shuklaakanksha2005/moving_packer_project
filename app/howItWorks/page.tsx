@@ -1,3 +1,22 @@
+
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "How It Works | Moving Packer",
+
+  description:
+    "Learn how our simple moving process works from booking to safe delivery of your belongings.",
+
+  keywords: [
+    "moving process",
+    "how moving works",
+    "packers process",
+    "relocation steps",
+  ],
+};
+
+
+
 import {
   ClipboardList,
   Package,

@@ -6,6 +6,24 @@ import QuoteCTA from "@/components/SelfComponent/QuoteCTA";
 
 import { intercityRelocation } from "@/constants/services";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Intercity Relocation Services | Moving Packer",
+
+  description:
+    "Trusted intercity relocation services with safe packing, transportation and doorstep delivery across India.",
+
+  keywords: [
+    "intercity relocation",
+    "intercity shifting",
+    "long distance moving",
+    "state to state movers",
+    "house relocation",
+    "interstate movers",
+  ],
+};
+
 export default function IntercityRelocationPage() {
   return (
     <>

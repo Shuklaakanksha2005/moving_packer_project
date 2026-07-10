@@ -9,6 +9,30 @@ import CustomerReviews  from "@/components/SelfComponent/CustomerReview";
 import FAQSection from "@/components/SelfComponent/FAQSection";
 import CTASection from "@/components/SelfComponent/CTASection";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Moving Packer | Trusted Packers & Movers Across India",
+
+  description:
+    "Professional Packers & Movers offering Home Shifting, Office Relocation, Bike Transport, Car Transport, Packing & Unpacking, Local Shifting and Intercity Relocation across India.",
+
+  keywords: [
+    "packers and movers",
+    "moving company",
+    "home shifting",
+    "office relocation",
+    "bike transport",
+    "car transport",
+    "packing services",
+    "local shifting",
+    "intercity relocation",
+    "moving services India",
+    "professional movers",
+    "house relocation",
+  ],
+};
+
 
 export default function Home(){
   return(
